@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #1C1C1E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1{
+  color: aliceblue;
+  font-size: 30px;
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.localConta{
+  grid-column: span 4;
+  height: 70px;
+  font-size: 35px;
+  background: #2C2C2E;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.principal{
+  background: #3A3A3C;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px;
+  padding: 7px;
+  width: 320px;
+  border-radius: 20px;
+  gap: 10px;
+  box-shadow: 0px 0px 20px rgba (0, 0, 0,0.4);
+}
+.mensagens{
+  grid-column: span 4;
+  text-align: center;
+}
+button{
+  background: #2C2C2E;
+  padding: 5px;
+  margin: 5px;
+  height: 60px;
+  width: 60px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover{
+  transform: scale(1.05);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="principal" id="principal">
+      <div class="mensagens">
+       <h1>Faça seu calculo</h1>
+       <p class="localConta" id="localConta"></p>
+      </div>
+      <button onclick="clicar(`0`)">0</button>
+      <button onclick="clicar(`1`)">1</button>
+      <button onclick="clicar(`2`)">2</button>
+      <button onclick="clicar(`3`)">3</button>
+      <button onclick="clicar(`4`)">4</button>
+      <button onclick="clicar(`5`)">5</button>
+      <button onclick="clicar(`6`)">6</button>
+      <button onclick="clicar(`7`)">7</button>
+      <button onclick="clicar(`8`)">8</button>
+      <button onclick="clicar(`9`)">9</button>
+      <button onclick="clicar(`+`)">+</button>
+      <button onclick="clicar(`-`)">-</button>
+      <button onclick="clicar(`×`)">×</button>
+      <button onclick="clicar(`÷`)">÷</button>
+      <button onclick="porcentagem(`%`)">%</button>
+      <button onclick="clicar(`P`)">P</button>
+      <button onclick="clicar(`,`)">,</button>
+      <button onclick="apagar(`<-`)"><-</button>
+      <button onclick="calcular(`=`)">=</button>
+      <button onclick="limpar()">C</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
