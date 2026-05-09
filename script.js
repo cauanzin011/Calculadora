@@ -44,8 +44,8 @@ function clicar(valor){
 }
 }
 function calcular(){
- calculo = eval(calculo)
- localConta.textContent = (calculo);
+ calculo = String(eval(calculo));
+ localConta.textContent = calculo;
 }
 function limpar(){
  calculo = "";
